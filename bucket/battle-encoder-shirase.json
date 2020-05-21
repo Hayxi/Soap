@@ -13,8 +13,13 @@
             "BES"
         ]
     ],
+    "pre_install": [
+        "CreateFile 'bes.ini'",
+        "CreateFile 'bes_sw.ini'"
+    ],
     "persist": [
-        "bes.ini"
+        "bes.ini",
+        "bes_sw.ini"
     ],
     "checkver": {
         "url": "http://mion.faireal.net/archive/BES/",
@@ -22,5 +27,6 @@
     },
     "autoupdate": {
         "url": "http://mion.faireal.net/archive/BES/bes_$version.zip"
+        "extract_dir": "BES_$version"
     }
 }
