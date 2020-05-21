@@ -1,0 +1,25 @@
+{
+    "homepage": "http://mion.faireal.net/BES/",
+    "description": "Free (open-source) Software that controls per-process CPU usage.",
+    "version": "1.7.7",
+    "license": "GPL-2.0",
+    "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip",
+    "hash": "md5:7A3C11B829B7FF2B057CA2EA7B2D6D70",
+    "bin": "BES.exe",
+    "shortcuts": [
+        [
+            "BES.exe",
+            "BES"
+        ]
+    ],
+    "persist": [
+        "bes.ini"
+    ],
+    "checkver": {
+        "url": "http://mion.faireal.net/archive/BES/",
+        "regex": "bes_([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "http://mion.faireal.net/archive/BES/bes_$version.zip"
+    }
+}
