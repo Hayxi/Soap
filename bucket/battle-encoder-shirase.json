@@ -13,19 +13,6 @@
             "BES"
         ]
     ],
-    "pre_install": [
-        "function CreateFile([String] $file, [String] $content = $null) {",
-        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
-        "    }",
-        "}",
-        "CreateFile 'bes.ini'",
-        "CreateFile 'bes_sw.ini'"
-    ],
-    "persist": [
-        "bes.ini",
-        "bes_sw.ini"
-    ],
     "checkver": {
         "url": "http://mion.faireal.net/archive/BES/",
         "regex": "bes_([\\d.]+).zip"
