@@ -5,6 +5,7 @@
     "license": "GPL-2.0",
     "url": "http://mion.faireal.net/archive/BES/bes_1.7.7.zip",
     "hash": "md5:7A3C11B829B7FF2B057CA2EA7B2D6D70",
+    "extract_dir": "BES_1.7.7",
     "bin": "BES.exe",
     "shortcuts": [
         [
