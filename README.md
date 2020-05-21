@@ -1,5 +1,5 @@
-# 🗿 statue
+# Soap
 
 ``` powershell
-scoop bucket add statue https://github.com/Hayxi/statue
+scoop bucket add soap https://github.com/Hayxi/Soap
 ```
