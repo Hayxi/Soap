@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/Tatsu-syo/noMeiryoUI",
+    "description": "No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.",
+    "version": "2.36",
+    "license": "MIT",
+    "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-2.36/noMeiryoUI236.zip",
+    "hash": "5fda8d816a1574033c0f521014e7720c9ec4767b5899291c7012642c4179f3d7",
+    "bin": "noMeiryoUI.exe",
+    "shortcuts": [
+        [
+            "noMeiryoUI.exe",
+            "No!! Meiryo UI"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/latest",
+        "re": "TAG-?([\\d.]{4})"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-$version/noMeiryoUI$cleanVersion.zip"
+    }
+}
