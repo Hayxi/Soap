@@ -1,0 +1,16 @@
+{
+    "homepage": "https://www.disktool.cn",
+    "description": "Safely partition your hard drive without any data loss.",
+    "version": "8.3",
+    "license": "Freeware",
+    "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip",
+    "hash": "46605c46318162d22295e24a04526c32585c7e23860c6b3f7cd7a9a7d6b7b151",
+    "extract_dir": "PA_Green",
+    "bin": "PartAssist.exe",
+    "shortcuts": [
+        [
+            "PartAssist.exe",
+            "AOMEI Partition Assistant"
+        ]
+    ]
+}
