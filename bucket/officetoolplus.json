@@ -1,10 +1,10 @@
 {
     "homepage": "https://otp.landian.vip/zh-cn/",
     "description": "Office Tool Plus is a tool for managing, downloading and installing Office.",
-    "version": "8.0.0.4",
+    "version": "8.0.0.5",
     "license": "GPL-3.0-only",
     "url": "https://delivery.yuntu.com.tw/office-tool/Office-Tool-v8.0-without-component.zip",
-    "hash": "f504627426ba805253bf4049790df9b3a4149b161c31dafc24985a49b162118c",
+    "hash": "1816529bae6d086151e9acd9f9d1a8f67257905f4bba68961170ea38a7aae617",
     "extract_dir": "Office Tool",
     "bin": "Office Tool Plus.exe",
     "shortcuts": [
