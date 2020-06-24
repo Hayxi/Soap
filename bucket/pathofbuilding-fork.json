@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "description": "Offline build planner for Path of Exile.",
-    "version": "1.4.169.3",
+    "version": "1.4.170.2",
     "license": "MIT",
-    "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v1.4.169.3/PathOfBuildingCommunity-Setup-1.4.169.3.zip",
-    "hash": "177ca3b76b41ac3eb1cb7934fea1568731b48372d96ca4e63521ed9f9a7dfbd7",
+    "url": "https://github.com/PathOfBuildingCommunity/PathOfBuilding/releases/download/v1.4.170.2/PathOfBuildingCommunity-Setup-1.4.170.2.zip",
+    "hash": "1f13e62dc2340921ee0ad4f23c7bb9c53e7661e11791bd47e989f4bd173ab971",
     "bin": "Path of Building.exe",
     "shortcuts": [
         [
