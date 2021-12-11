@@ -1,10 +1,11 @@
 {
     "homepage": "https://github.com/Tatsu-syo/noMeiryoUI",
-    "description": "No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.",
+    "description": "No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10/11.",
     "version": "2.41",
     "license": "MIT",
     "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-2.41/noMeiryoUI241.zip",
     "hash": "9acb61ab3c9e1d6ba1f0823ba777d4c418fbc0b67a04588442082317868c0293",
+    "pre_install": "Remove-Item \"$dir\\Chinese (Simplified)_China.chm\", \"$dir\\Chinese (Simplified)_China.lng\", \"$dir\\Chinese (Traditional)_Taiwan.chm\", \"$dir\\Chinese (Traditional)_Taiwan.lng\", \"$dir\\English.chm\", \"$dir\\English.lng\", \"$dir\\Japanese.chm\", \"$dir\\Japanese.lng\", \"$dir\\Korean.chm\", \"$dir\\Korean.lng\", \"$dir\\Portuguese_Brazil.chm\", \"$dir\\Portuguese_Brazil.lng\", \"$dir\\src.zip\" -Recurse",
     "bin": "noMeiryoUI.exe",
     "shortcuts": [
         [
