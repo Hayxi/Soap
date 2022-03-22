@@ -4,7 +4,7 @@
     "version": "3.0.0",
     "license": "MIT",
     "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-3.0.0/noMeiryoUI3.0.0.zip",
-    "hash": "6bb761fd8771c257de9c2ff67613e47626f83fcb4c18dc4caaaaa8a5f5690869",
+    "hash": "56e6aa0c114ad7ab948c28714331ad9aca36492f38bef100312d5568842bf58e",
     "pre_install": "Remove-Item \"$dir\\Chinese (Simplified)_China.chm\", \"$dir\\Chinese (Simplified)_China.lng\", \"$dir\\Chinese (Traditional)_Taiwan.chm\", \"$dir\\Chinese (Traditional)_Taiwan.lng\", \"$dir\\English.chm\", \"$dir\\English.lng\", \"$dir\\Japanese.chm\", \"$dir\\Japanese.lng\", \"$dir\\Korean.chm\", \"$dir\\Korean.lng\", \"$dir\\Portuguese_Brazil.chm\", \"$dir\\Portuguese_Brazil.lng\" -Recurse",
     "bin": "noMeiryoUI.exe",
     "shortcuts": [
