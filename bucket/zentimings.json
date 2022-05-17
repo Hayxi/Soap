@@ -5,14 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/irusanov/ZenTimings/releases/download/v1.2.5/ZenTimings_v1.2.5.zip",
     "hash": "md5:4300a3914fd8b7e10a6953923623d14e",
-    "pre_install": [
-        "function CreateFile([String] $file, [String] $content = $null) {",
-        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
-        "    }",
-        "}",
-        "CreateFile 'settings.xml'"
-    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\settings.xml\")) { New-Item \"$dir\\settings.xml\" | Out-Null }",
     "bin": "ZenTimings.exe",
     "shortcuts": [
         [
@@ -20,9 +13,7 @@
             "ZenTimings"
         ]
     ],
-    "persist": [
-        "settings.xml"
-    ],
+    "persist": "settings.xml",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/irusanov/ZenTimings/releases/download/v$version/ZenTimings_v$version.zip",
