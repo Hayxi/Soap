@@ -5,13 +5,6 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/Blinue/Magpie/releases/download/v0.9.0/Magpie_v0.9.0.zip",
     "hash": "8d7a13ceb94181a223be401a3aa4da8470ebc8df4c1f1d3ac5ff0b83660f875f",
-    "bin": "Magpie.exe",
-    "shortcuts": [
-        [
-            "Magpie.exe",
-            "Magpie"
-        ]
-    ],
     "pre_install": [
         "function CreateFile([String] $file, [String] $content = $null) {",
         "    if (!(Test-Path \"$persist_dir\\$file\")) {",
@@ -19,6 +12,13 @@
         "    }",
         "}",
         "CreateFile 'ScaleModels.json'"
+    ],
+    "bin": "Magpie.exe",
+    "shortcuts": [
+        [
+            "Magpie.exe",
+            "Magpie"
+        ]
     ],
     "persist": [
         "ScaleModels.json"
