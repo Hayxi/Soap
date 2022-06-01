@@ -1,11 +1,11 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "Add coloring to the output of Get-ChildItem Cmdlet of PowerShell.",
     "homepage": "https://github.com/joonro/Get-ChildItemColor",
     "license": "MIT",
-    "url": "https://github.com/joonro/Get-ChildItemColor/archive/refs/tags/v2.2.1.zip",
-    "hash": "f302287259addf713c4eb75e0557b9219d65c0e133b409bcbbdb6efae8254242",
-    "extract_dir": "Get-ChildItemColor-2.2.1\\src",
+    "url": "https://github.com/joonro/Get-ChildItemColor/archive/refs/tags/v2.2.2.zip",
+    "hash": "ac4a487a8586796b533d1ae6e3fa3e774a9737dbd18df9e757d9efbf929e5685",
+    "extract_dir": "Get-ChildItemColor-2.2.2\\src",
     "psmodule": {
         "name": "get-childitemcolor"
     },
