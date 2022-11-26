@@ -1,10 +1,10 @@
 {
-    "version": "2.4.0.2",
+    "version": "2.4.0.3",
     "description": "This tool is used for modifying game profiles inside the internal driver database of the nvidia driver. All game profiles are provided by the nvidia driver, but you can add your own profiles for games missing in the driver database. You also have access to hidden and undocumented settings, which are not provided by the drivers control panel.",
     "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector",
     "license": "MIT",
-    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.2/nvidiaProfileInspector.zip",
-    "hash": "732df5684f8e6bec70decce9111f2d8f68f031b8c1998d6ff0c379bb1a0fff23",
+    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.3/nvidiaProfileInspector.zip",
+    "hash": "cf1f5c1899628a0c2ece58e4bc34a2ed9af0768d55306485af5ecfffc86b96a6",
     "shortcuts": [
         [
             "nvidiaProfileInspector.exe",
