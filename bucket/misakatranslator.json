@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.12/MisakaTranslator.2.12.zip",
     "hash": "md5:c76625dc2d325ba2b739804050cecb9a",
-    "extract_dir": "Release",
+    "extract_dir": "Debug",
     "pre_install": "if (!(Test-Path \"$persist_dir\\MisakaGameLibrary.sqlite\")) { New-Item \"$dir\\MisakaGameLibrary.sqlite\" | Out-Null }",
     "shortcuts": [
         [
@@ -22,6 +22,6 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/$version/MisakaTranslator.$version.zip",
-        "extract_dir": "Release"
+        "extract_dir": "Debug"
     }
 }
