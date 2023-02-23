@@ -1,10 +1,10 @@
 {
-    "version": "0.10.0-preview1",
+    "version": "0.10.0-preview2",
     "description": "使游戏窗口全屏显示",
     "homepage": "https://github.com/Blinue/Magpie",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/Blinue/Magpie/releases/download/v0.10.0-preview1/Magpie_v0.10.0-preview1.zip",
-    "hash": "67b836ce45358af18efada94eec6032ecfc77ad3484a57d8aa82b6367520baf4",
+    "url": "https://github.com/Blinue/Magpie/releases/download/v0.10.0-preview2/Magpie_v0.10.0-preview2.zip",
+    "hash": "6651685f8c3dafc2b87e437d5fd9699c99291fce6956116a8ca1906573f79f49",
     "shortcuts": [
         [
             "Magpie.exe",
