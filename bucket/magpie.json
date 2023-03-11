@@ -5,6 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/Blinue/Magpie/releases/download/v0.10.0-preview2/Magpie_v0.10.0-preview2.zip",
     "hash": "6651685f8c3dafc2b87e437d5fd9699c99291fce6956116a8ca1906573f79f49",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config\\config.json\")) { New-Item \"$dir\\config\\config.json\" | Out-Null }",
     "shortcuts": [
         [
             "Magpie.exe",
