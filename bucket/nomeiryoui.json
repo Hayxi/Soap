@@ -1,10 +1,10 @@
 {
-    "version": "3.0.0.1",
+    "version": "3.1.1_test1",
     "description": "No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10/11.",
     "homepage": "https://github.com/Tatsu-syo/noMeiryoUI",
     "license": "MIT",
-    "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-3.0.0.1/noMeiryoUI3.0.0.1.zip",
-    "hash": "ca09ad2c7a00845133445fd93a3f8b069ba694e4b25a4d98932615d1c3a5e207",
+    "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-3.1.1_test1/noMeiryoUI3.1.1_test1.zip",
+    "hash": "c62ee48f6c828ff308c56f90d42cf87689207bcdbcff8c62d5f7e7e7ff873484",
     "pre_install": [
         "Remove-Item \"$dir\\Chinese (Simplified)_China.chm\" -Recurse",
         "Remove-Item \"$dir\\Chinese (Simplified)_China.lng\" -Recurse",
