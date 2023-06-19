@@ -1,6 +1,6 @@
 {
     "version": "3.4.0",
-    "description": "Add coloring to the output of Get-ChildItem Cmdlet of PowerShell.",
+    "description": "Provides colorized version of Get-ChildItem Cmdlet of PowerShell.",
     "homepage": "https://github.com/joonro/Get-ChildItemColor",
     "license": "MIT",
     "url": "https://github.com/joonro/Get-ChildItemColor/archive/refs/tags/v3.4.0.zip",
