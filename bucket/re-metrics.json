@@ -5,13 +5,17 @@
     "license": "MIT",
     "url": "https://github.com/Tatsu-syo/ReMetrics/releases/download/TAG-1.35/ReMetrics135.zip",
     "hash": "3e245ad91bf225fc3dc8565ae7fe08ba7e249f0a8cc1f4a0448650de09d48a01",
-    "pre_install": "Remove-Item \"$dir\\src.zip\" -Recurse",
+    "pre_install": [
+        "Remove-Item \"$dir\\src.zip\" -Recurse",
+        "if (!(Test-Path \"$persist_dir\\Default.ini\")) { New-Item \"$dir\\Default.ini\" | Out-Null }"
+    ],
     "shortcuts": [
         [
             "ReMetrics.exe",
             "Re-Metrics"
         ]
     ],
+    "persist": "Default.ini",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Tatsu-syo/ReMetrics/releases/download/TAG-$version/ReMetrics$cleanVersion.zip"
