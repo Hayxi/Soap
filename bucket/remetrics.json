@@ -7,7 +7,9 @@
     "hash": "9c35398b5bc7badf97041a8900ac93a4051e7383a3b85691321e1540b2563848",
     "pre_install": [
         "Remove-Item \"$dir\\src.zip\" -Recurse",
-        "if (!(Test-Path \"$persist_dir\\Default.ini\")) { New-Item \"$dir\\Default.ini\" | Out-Null }"
+        "if (!(Test-Path \"$persist_dir\\settings.ini\")) {",
+        "    New-Item \"$dir\\settings.ini\" | Out-Null",
+        "}"
     ],
     "shortcuts": [
         [
@@ -15,7 +17,7 @@
             "Re-Metrics"
         ]
     ],
-    "persist": "Default.ini",
+    "persist": "settings.ini",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Tatsu-syo/ReMetrics/releases/download/TAG-$version/ReMetrics$cleanVersion.zip"
