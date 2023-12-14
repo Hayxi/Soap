@@ -9,6 +9,7 @@
     "psmodule": {
         "name": "get-childitemcolor"
     },
+    "post_install": "Remove-Item \"$dir\\Get-ChildItemColor-*\" -Recurse",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/joonro/Get-ChildItemColor/archive/refs/tags/v$version.zip",
