@@ -6,15 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.5/Clash.Verge_1.4.5_x64_portable.zip",
-            "hash": "febf543da49cbbd0cf5c7a2a6aba35fd9745df775c708031ca2384e1c6af9757"
+            "hash": "c7d58cff60b5d81cad238f5ca6fcb70c96395cb49f22a63b575d648e39d0ec44"
         },
         "32bit": {
             "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.5/Clash.Verge_1.4.5_x86_portable.zip",
-            "hash": "c401547b4db232e35fb05261c050d82d3d67ffa27aa8bfdddf3fe46a2da892dd"
+            "hash": "837cde4cb4241279362069a47b42bdcb37e1b6a5eb5b0ecc90f62dad3673c75c"
         },
         "arm64": {
             "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.5/Clash.Verge_1.4.5_arm64_portable.zip",
-            "hash": "965e7c040267a96ad0e74b91ec56f1332b614019d57b60e69c4926a7effc1646"
+            "hash": "0721f17a1af816ad49b16d11d69ce2e8be8a6e04ee38dee8ff55abc6dd478da9"
         }
     },
     "shortcuts": [
