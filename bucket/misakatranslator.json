@@ -1,6 +1,6 @@
 {
     "version": "2.12.2",
-    "description": "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具",
+    "description": "Galgame's Multilingual Real-time Machine Translation Tool",
     "homepage": "https://github.com/hanmin0822/MisakaTranslator",
     "license": "GPL-3.0-only",
     "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.12.2/MisakaTranslator.2.12.2.zip",
