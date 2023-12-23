@@ -6,7 +6,11 @@
     "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.12.2/MisakaTranslator.2.12.2.zip",
     "hash": "md5:b61d71119d9c21ade19073329971fcaf",
     "extract_dir": "Debug",
-    "pre_install": "if (!(Test-Path \"$persist_dir\\MisakaGameLibrary.sqlite\")) { New-Item \"$dir\\MisakaGameLibrary.sqlite\" | Out-Null }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\MisakaGameLibrary.sqlite\")) {",
+        "    New-Item \"$dir\\MisakaGameLibrary.sqlite\" | Out-Null",
+        "}"
+    ],
     "shortcuts": [
         [
             "MisakaTranslator-WPF.exe",
