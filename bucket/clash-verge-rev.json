@@ -21,6 +21,10 @@
         [
             "Clash Verge.exe",
             "Clash Verge"
+        ],
+        [
+            "resources\\enableLoopback.exe",
+            "UWP Loopback"
         ]
     ],
     "persist": ".config\\io.github.clash-verge-rev.clash-verge-rev",
