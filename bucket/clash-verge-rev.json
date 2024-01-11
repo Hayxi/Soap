@@ -1,20 +1,20 @@
 {
-    "version": "1.4.6",
+    "version": "1.4.7",
     "description": "A Clash Meta GUI based on Tauri.",
     "homepage": "https://github.com/clash-verge-rev/clash-verge-rev",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.6/Clash.Verge_1.4.6_x64_portable.zip",
-            "hash": "4e4525c4f491e806d66ea81a8cec2bc78f5b0ffb84849698ff94e028bbdd0a56"
+            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.7/Clash.Verge_1.4.7_x64_portable.zip",
+            "hash": "3abd4ca7120a49d5234df59274310b9c47fd3f7e15b617527a9a59f0b5a7faf8"
         },
         "32bit": {
-            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.6/Clash.Verge_1.4.6_x86_portable.zip",
-            "hash": "6b575a03748b8f367c1e1903430b4f5ac8d3f46ff800eb90ec74043ebb401569"
+            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.7/Clash.Verge_1.4.7_x86_portable.zip",
+            "hash": "31236e5a399e03e1c8a04a78377edf8d644a833d2b9f60baec0b0d85dbba8c13"
         },
         "arm64": {
-            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.6/Clash.Verge_1.4.6_arm64_portable.zip",
-            "hash": "8a91b646fa1100d6f4da6076f056ca953e1c52edd12d03cfcd01c5f8266619f9"
+            "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.4.7/Clash.Verge_1.4.7_arm64_portable.zip",
+            "hash": "e734d8c282d13bf443b532087f96247226ed9a8013acd21a2f976767d310d31e"
         }
     },
     "shortcuts": [
