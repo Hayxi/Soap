@@ -27,6 +27,10 @@
         ]
     ],
     "persist": "mpc-hc64.ini",
+    "post_install": [
+        "Remove-Item \"$dir\\CrashReporter\" -Recurse",
+        "Remove-Item \"$dir\\LAVFilters64\" -Recurse"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
