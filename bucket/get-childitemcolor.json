@@ -12,7 +12,7 @@
     "post_install": "Remove-Item \"$dir\\Get-ChildItemColor-*\" -Recurse -Force",
     "checkver": {
         "url": "https://github.com/joonro/Get-ChildItemColor/tags",
-        "regex": "v([\\d.]+)"
+        "regex": "/releases/tag/v([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/joonro/Get-ChildItemColor/archive/refs/tags/v$version.zip",
