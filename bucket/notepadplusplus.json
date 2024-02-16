@@ -1,0 +1,63 @@
+{
+    "version": "8.6.2",
+    "description": "A free source code editor and Notepad replacement that supports several languages.",
+    "homepage": "https://notepad-plus-plus.org/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.2/npp.8.6.2.portable.x64.zip",
+            "hash": "246e74062005011d1c2e2e06f67df81d4d6c072c078cf7393ad06751bb985786"
+        },
+        "arm64": {
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.2/npp.8.6.2.portable.arm64.zip",
+            "hash": "eb2b974dd02096511448f656b9e4f6645d43d9d47d0f93de1196dae634061172"
+        }
+    },
+    "pre_install": [
+        "'nativeLang.xml', 'session.xml' | ForEach-Object {",
+        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\stylers.xml\")) {",
+        "    Copy-Item \"$dir\\stylers.model.xml\" \"$dir\\stylers.xml\"",
+        "}"
+    ],
+    "bin": "notepad++.exe",
+    "shortcuts": [
+        [
+            "notepad++.exe",
+            "Notepad++"
+        ]
+    ],
+    "persist": [
+        "backup",
+        "plugins",
+        "userDefineLangs",
+        "config.xml",
+        "nativeLang.xml",
+        "session.xml",
+        "shortcuts.xml",
+        "stylers.xml"
+    ],
+    "post_install": [
+        "# Update shipped plugins",
+        "if (Test-Path \"$dir\\plugins.original\") {",
+        "    Copy-Item \"$dir\\plugins.original\\*\" \"$dir\\plugins\\\" -Recurse -Force",
+        "}"
+    ],
+    "checkver": {
+        "github": "https://github.com/notepad-plus-plus/notepad-plus-plus"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/npp.$version.checksums.sha256"
+        }
+    }
+}
