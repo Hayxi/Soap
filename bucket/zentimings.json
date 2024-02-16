@@ -7,7 +7,7 @@
     "hash": "md5:8d2ce203c3c9727b09ae5fb3ea1a470f",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\settings.xml\")) {",
-        "    New-Item \"$dir\\settings.xml\" | Out-Null",
+        "    New-Item \"$dir\\settings.xml\" -ItemType File | Out-Null",
         "}"
     ],
     "shortcuts": [
