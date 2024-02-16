@@ -11,7 +11,7 @@
     },
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\imgui.ini\")) {",
-        "    New-Item \"$dir\\imgui.ini\" | Out-Null",
+        "    New-Item \"$dir\\imgui.ini\" -ItemType File | Out-Null",
         "}"
     ],
     "shortcuts": [
