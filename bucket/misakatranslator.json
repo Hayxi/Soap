@@ -1,16 +1,11 @@
 {
-    "version": "2.12.2",
+    "version": "1.2.4",
     "description": "Galgame's Multilingual Real-time Machine Translation Tool.",
-    "homepage": "https://github.com/hanmin0822/MisakaTranslator",
+    "homepage": "https://github.com/liscs/MisakaTranslator",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.12.2/MisakaTranslator.2.12.2.zip",
-    "hash": "md5:b61d71119d9c21ade19073329971fcaf",
-    "extract_dir": "Debug",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\MisakaGameLibrary.sqlite\")) {",
-        "    New-Item \"$dir\\MisakaGameLibrary.sqlite\" -ItemType File | Out-Null",
-        "}"
-    ],
+    "url": "https://github.com/liscs/MisakaTranslator/releases/download/v1.2.4/publish.zip",
+    "hash": "f45d8537989ef38e3eac116aa4c52f2790d2bf3d56bbe3293878d6f00f80fe26",
+    "extract_dir": "publish",
     "shortcuts": [
         [
             "MisakaTranslator-WPF.exe",
@@ -19,13 +14,13 @@
     ],
     "persist": [
         "ArtificialTranslation",
-        "settings",
-        "TransOptimization",
-        "MisakaGameLibrary.sqlite"
+        "data",
+        "Textractor",
+        "TransOptimization"
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/$version/MisakaTranslator.$version.zip",
-        "extract_dir": "Debug"
+        "url": "https://github.com/liscs/MisakaTranslator/releases/download/v$version/publish.zip",
+        "extract_dir": "publish"
     }
 }
