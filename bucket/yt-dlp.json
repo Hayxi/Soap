@@ -4,12 +4,12 @@
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": "Unlicense",
     "suggest": {
-        "ffmpeg": "ffmpeg"
+        "FFmpeg": "main/ffmpeg"
     },
     "architecture": {
         "64bit": {
             "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.12.30/yt-dlp.exe",
-            "hash": "sha512:e0fb2a726c0f7dd78ce7bfad50e8bd4ae83522eb6a88cb707a27b20cf9a97782f2527bcdb613b821048f5d612b62f0436d76374303ca01fe4f2c13c10381654c"
+            "hash": "160b304bef9fa134d523b46cc3647a727e40584338379eb4e0d1047de945fad9"
         }
     },
     "pre_install": [
@@ -30,7 +30,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/SHA2-512SUMS"
+            "url": "$baseurl/SHA2-256SUMS"
         }
     }
 }
