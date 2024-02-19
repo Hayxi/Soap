@@ -20,7 +20,7 @@
     "persist": "settings.ini",
     "checkver": {
         "github": "https://github.com/Tatsu-syo/ReMetrics",
-        "regex": "/releases/tag/TAG-([\\d.]+)\""
+        "regex": "/releases/tag/TAG-([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Tatsu-syo/ReMetrics/releases/download/TAG-$version/ReMetrics$cleanVersion.zip"
