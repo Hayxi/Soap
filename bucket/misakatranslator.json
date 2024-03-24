@@ -1,10 +1,10 @@
 {
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "Galgame's Multilingual Real-time Machine Translation Tool.",
     "homepage": "https://github.com/liscs/MisakaTranslator",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/liscs/MisakaTranslator/releases/download/v1.2.4/publish.zip",
-    "hash": "f45d8537989ef38e3eac116aa4c52f2790d2bf3d56bbe3293878d6f00f80fe26",
+    "url": "https://github.com/liscs/MisakaTranslator/releases/download/v1.2.5/publish.zip",
+    "hash": "d02c23826e2cdb9175399262d2ca518e898ad3afe5472fb42b29386768e593f3",
     "extract_dir": "publish",
     "shortcuts": [
         [
