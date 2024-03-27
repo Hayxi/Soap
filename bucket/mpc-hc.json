@@ -28,15 +28,8 @@
         ]
     ],
     "persist": [
-        "Shaders",
         "mpc-hc64.ini",
         "version.dll"
-    ],
-    "post_install": [
-        "# Update shipped shaders",
-        "if (Test-Path \"$dir\\Shaders.original\") {",
-        "    Copy-Item \"$dir\\Shaders.original\\*\" \"$dir\\Shaders\\\" -Recurse -Force",
-        "}"
     ],
     "checkver": {
         "github": "https://github.com/clsid2/mpc-hc",
