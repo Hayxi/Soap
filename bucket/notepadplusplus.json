@@ -15,7 +15,7 @@
     },
     "pre_install": [
         "Copy-Item \"$dir\\langs.model.xml\" \"$dir\\langs.xml\"",
-        "'nativeLang.xml', 'session.xml' | ForEach-Object {",
+        "'nativeLang.xml', 'session.xml', 'session.xml.inCaseOfCorruption.bak' | ForEach-Object {",
         "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
         "}",
         "if (!(Test-Path \"$persist_dir\\stylers.xml\")) {",
@@ -36,6 +36,7 @@
         "config.xml",
         "nativeLang.xml",
         "session.xml",
+        "session.xml.inCaseOfCorruption.bak",
         "shortcuts.xml",
         "stylers.xml"
     ],
