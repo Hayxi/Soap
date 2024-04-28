@@ -15,6 +15,7 @@
     "persist": [
         "ArtificialTranslation",
         "data",
+        "Save",
         "Textractor",
         "TransOptimization"
     ],
