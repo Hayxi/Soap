@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/liscs/Mikoto/releases/download/v1.3.1/mikoto-64bit.zip",
             "hash": "50627153c0b93b85c6e2a3170342b9115c68f80273ff5536c5849f9f630e22f4",
-            "extract_dir": "mikoto-x64"
+            "extract_dir": "mikoto-64bit"
         },
         "arm64": {
             "url": "https://github.com/liscs/Mikoto/releases/download/v1.3.1/mikoto-arm64.zip",
@@ -33,7 +33,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/liscs/Mikoto/releases/download/v$version/mikoto-64bit.zip",
-                "extract_dir": "mikoto-x64"
+                "extract_dir": "mikoto-64bit"
             },
             "arm64": {
                 "url": "https://github.com/liscs/Mikoto/releases/download/v$version/mikoto-arm64.zip",
