@@ -1,12 +1,12 @@
 {
-    "version": "4.6.5.10",
+    "version": "4.6.6.10",
     "description": "qBittorrent Enhanced, based on qBittorrent.",
     "homepage": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.6.5.10/qbittorrent_enhanced_4.6.5.10_qt6_x64_setup.exe#/dl.7z",
-            "hash": "f52a2a3f5e6aa33325792c8ca021b485ab88fa04c7d2852e3dc5cd0f514b5048"
+            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.6.6.10/qbittorrent_enhanced_4.6.6.10_qt6_x64_setup.exe#/dl.7z",
+            "hash": "cca5e8b3a6a9e558ac3c5ceb1f6d509738979e84540450fc1abac06de1e899da"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Recurse -Force",
