@@ -1,5 +1,5 @@
 {
-    "version": "2024.11.18",
+    "version": "2024.12.03",
     "description": "A youtube-dl fork with additional features and fixes.",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": "Unlicense",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.11.18/yt-dlp.exe",
-            "hash": "4d88a8ce1bff829c7167dd21e8b4a8eeb0db1441bc27340f0896bbe781c9c3c0"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.12.03/yt-dlp.exe",
+            "hash": "219eaf463f31be34af73926c6bddc38f799ff28a73965f12a0a794846e7221c4"
         }
     },
     "pre_install": [
