@@ -5,6 +5,11 @@
     "license": "MIT",
     "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.8/nvidiaProfileInspector.zip",
     "hash": "a259a780a2d6ae7508c0261363af93ae7fb82058e5b9b8fe2993251439d13e97",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\CustomSettingNames.xml\")) {",
+        "    New-Item \"$dir\\CustomSettingNames.xml\" -ItemType File | Out-Null",
+        "}"
+    ],
     "bin": "nvidiaProfileInspector.exe",
     "shortcuts": [
         [
@@ -12,7 +17,7 @@
             "NVIDIA Profile Inspector"
         ]
     ],
-    "persist": "Reference.xml",
+    "persist": "CustomSettingNames.xml",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/$version/nvidiaProfileInspector.zip"
