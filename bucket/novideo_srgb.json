@@ -21,7 +21,10 @@
         ]
     ],
     "persist": "config.xml",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/ledoge/novideo_srgb",
+        "regex": "tag/v([\\w\\.-]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
