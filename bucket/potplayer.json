@@ -14,7 +14,7 @@
     },
     "pre_install": [
         "Remove-Item \"$dir\\`$*\" -Recurse -Force",
-        "'PotPlayer64.ini', 'PotPlayerMini64.ini' | ForEach-Object {",
+        "'PotPlayerMini64.ini', 'version.dll' | ForEach-Object {",
         "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
         "}"
     ],
@@ -27,8 +27,8 @@
     "persist": [
         "Capture",
         "Playlist",
-        "PotPlayer64.ini",
-        "PotPlayerMini64.ini"
+        "PotPlayerMini64.ini",
+        "version.dll"
     ],
     "checkver": {
         "url": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
