@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/kaedei/dandanplay/releases/download/windows-15.13.0.0/dandanplay-x64_15.13.0.zip",
-            "hash": "70578f1a06d95026fb4f878569156622761a83845d67f1f247d03e97e9dabda6"
+            "hash": "70578f1a06d95026fb4f878569156622761a83845d67f1f247d03e97e9dabda6",
+            "extract_dir": "dandanplay-x64"
         }
     },
     "pre_install": [
@@ -38,7 +39,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$majorVersion.$minorVersion.$patchVersion.zip"
+                "url": "https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$majorVersion.$minorVersion.$patchVersion.zip",
+                "extract_dir": "dandanplay-x64"
             }
         }
     }
