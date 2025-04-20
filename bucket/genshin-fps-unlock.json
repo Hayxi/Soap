@@ -14,7 +14,7 @@
     },
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\fps_config.json\")) {",
-        "    New-Item \"$dir\\fps_config.json\" -ItemType File | Out-Null",
+        "    New-Item \"$dir\\fps_config.json\" -ItemType File -Value '{}' | Out-Null",
         "}"
     ],
     "shortcuts": [
