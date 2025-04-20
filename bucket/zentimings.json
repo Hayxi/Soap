@@ -7,7 +7,7 @@
     "hash": "md5:92fc819484b46521c297a4e033c95d2c",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\settings.xml\")) {",
-        "    New-Item \"$dir\\settings.xml\" -ItemType File | Out-Null",
+        "    New-Item \"$dir\\settings.xml\" -ItemType File -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><AppSettings><CheckForUpdates>false</CheckForUpdates></AppSettings>' | Out-Null",
         "}"
     ],
     "shortcuts": [
