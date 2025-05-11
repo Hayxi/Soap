@@ -10,7 +10,7 @@
         }
     },
     "pre_install": [
-        "Remove-Item \"$dir\\CrashReporter\", \"$dir\\LAVFilters64\", \"$dir\\MPCVR\" -Recurse -Force",
+        "Remove-Item \"$dir\\CrashReporter\" -Recurse -Force",
         "if (!(Test-Path \"$persist_dir\\mpc-hc64.ini\")) {",
         "    New-Item \"$dir\\mpc-hc64.ini\" -ItemType File | Out-Null",
         "}"
