@@ -35,11 +35,14 @@
         "dandanplay.exe.WebView2",
         "Log"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/kaedei/dandanplay/tags",
+        "regex": ">windows-([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$majorVersion.$minorVersion.$patchVersion.zip",
+                "url": "https://github.com/kaedei/dandanplay/releases/download/windows-$version/dandanplay-x64_$matchHead.zip",
                 "extract_dir": "dandanplay-x64"
             }
         }
