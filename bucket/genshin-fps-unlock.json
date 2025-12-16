@@ -1,5 +1,5 @@
 {
-    "version": "3.4.11",
+    "version": "3.5.0",
     "description": "This tool helps you to unlock the 60 fps limit in the game.",
     "homepage": "https://github.com/34736384/genshin-fps-unlock",
     "license": "MIT",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/34736384/genshin-fps-unlock/releases/download/v3.4.11/unlockfps_nc_signed.exe",
-            "hash": "332b0b5f0d123f0f2aad624c0cf9bc397ed0a236c8f1405f86399fdd593e5e5b"
+            "url": "https://github.com/34736384/genshin-fps-unlock/releases/download/v3.5.0/unlockfps_nc_signed.exe",
+            "hash": "99ceb89a1f3eba2531642d575145548a4ecd2cb47ca38dfe71e739180229370e"
         }
     },
     "pre_install": [
