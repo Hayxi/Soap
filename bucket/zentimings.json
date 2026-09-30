@@ -5,7 +5,6 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/irusanov/ZenTimings/releases/download/v140.665/ZenTimings_v140.665.zip",
     "hash": "a220b5496af2798a4e09ec0857f4b757eb41e25b0c8bdd6464da28ae89ff2bcc",
-    "extract_dir": "ZenTimings_v140.665",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\settings.xml\")) {",
         "    New-Item \"$dir\\settings.xml\" -ItemType File -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><AppSettings><CheckForUpdates>false</CheckForUpdates></AppSettings>' | Out-Null",
@@ -32,7 +31,6 @@
         "url": "https://github.com/irusanov/ZenTimings/releases/download/v$matchTag/ZenTimings_v$version.zip",
         "hash": {
             "url": "$url.sha256"
-        },
-        "extract_dir": "ZenTimings_v$version"
+        }
     }
 }
