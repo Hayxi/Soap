@@ -1,10 +1,10 @@
 {
-    "version": "140.665",
+    "version": "141.706",
     "description": "A free, simple and lightweight app for monitoring memory timings on Ryzen platform.",
     "homepage": "https://zentimings.com/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/irusanov/ZenTimings/releases/download/v140.665/ZenTimings_v140.665.zip",
-    "hash": "a220b5496af2798a4e09ec0857f4b757eb41e25b0c8bdd6464da28ae89ff2bcc",
+    "url": "https://github.com/irusanov/ZenTimings/releases/download/v141.706/ZenTimings_v141.706.zip",
+    "hash": "6e40c699fb5b431ed09eaad3863ab9b46d1098d6e73a4a753b8d7c0d1c93c9f0",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\settings.xml\")) {",
         "    New-Item \"$dir\\settings.xml\" -ItemType File -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><AppSettings><CheckForUpdates>false</CheckForUpdates></AppSettings>' | Out-Null",
