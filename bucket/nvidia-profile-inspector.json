@@ -1,10 +1,10 @@
 {
-    "version": "2.4.0.31",
+    "version": "3.0.2.1",
     "description": "This tool is used for modifying game profiles inside the internal driver database of the nvidia driver.",
     "homepage": "https://github.com/Orbmu2k/nvidiaProfileInspector",
     "license": "MIT",
-    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.31/nvidiaProfileInspector.zip",
-    "hash": "5d692e812a701627edd6d165d0b60175ff4f772c758a7dac869d613e1beb8063",
+    "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v3.0.2.1/nvidiaProfileInspector.zip",
+    "hash": "88dcf3514111e8de630688467c03c36d8c2a8ad9ebc8073f27c069f82b75bb40",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\CustomSettingNames.xml\")) {",
         "    New-Item \"$dir\\CustomSettingNames.xml\" -ItemType File | Out-Null",
