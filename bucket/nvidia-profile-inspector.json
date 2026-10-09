@@ -20,6 +20,6 @@
     "persist": "CustomSettingNames.xml",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/$version/nvidiaProfileInspector.zip"
+        "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v$version/nvidiaProfileInspector.zip"
     }
 }
