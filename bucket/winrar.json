@@ -1,0 +1,45 @@
+{
+    "version": "7.23",
+    "description": "Powerful archive manager",
+    "homepage": "https://rarlab.com/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.win-rar.com/gtb_priv.html?&L=0"
+    },
+    "notes": "Set up context menu within settings window.",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.rarlab.com/rar/winrar-x64-723sc.exe#/dl.7z",
+            "hash": "fe802e10a636e394cf5cf269b6910b0b433db6c1bea059abcec57923e077054f"
+        }
+    },
+    "pre_install": [
+        "Remove-Item \"$dir\\Uninstall.exe\", \"$dir\\Uninstall.lst\", \"$dir\\uninstall.lng\" -Recurse -Force",
+        "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\WinRAR.ini\")) { New-Item \"$dir\\WinRAR.ini\" | Out-Null }"
+    ],
+    "bin": [
+        "Rar.exe",
+        "UnRAR.exe",
+        "WinRAR.exe"
+    ],
+    "shortcuts": [
+        [
+            "WinRAR.exe",
+            "WinRAR"
+        ]
+    ],
+    "persist": [
+        "Themes",
+        "rarreg.key",
+        "WinRAR.ini"
+    ],
+    "checkver": "WinRAR and RAR ([\\d.]+) release",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersionsc.exe#/dl.7z"
+            }
+        }
+    }
+}
