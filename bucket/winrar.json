@@ -30,7 +30,6 @@
         ]
     ],
     "persist": [
-        "Themes",
         "rarreg.key",
         "WinRAR.ini"
     ],
