@@ -13,11 +13,6 @@
             "hash": "3f1d4f8fade6da13402ac4ea739867d60f0dee50e4c4fa56aab508eab0109551"
         }
     },
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\imgui.ini\")) {",
-        "    New-Item \"$dir\\imgui.ini\" -ItemType File | Out-Null",
-        "}"
-    ],
     "shortcuts": [
         [
             "Magpie.exe",
@@ -27,8 +22,7 @@
     "persist": [
         "cache",
         "config",
-        "logs",
-        "imgui.ini"
+        "logs"
     ],
     "checkver": "github",
     "autoupdate": {
