@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/261021/PotPlayerSetup64.exe#/dl.7z",
-            "hash": "28890593ea6b1156ca93cd79622fce4e8c1740bfdbe6ee907e3190ec7c3f51d3"
+            "hash": "5ae66c53fb42a4e160bb223d959996b2c0c59460ff4d14ae3109f9329e091993"
         }
     },
     "pre_install": [
