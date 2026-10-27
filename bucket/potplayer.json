@@ -1,14 +1,14 @@
 {
     "version": "261021",
-    "description": "A multimedia software player developed for the Microsoft Windows operating system.",
-    "homepage": "https://potplayer.daum.net/",
+    "description": "A media player software developed for the Microsoft Windows operating system",
+    "homepage": "https://potplayer.tv/",
     "license": {
         "identifier": "Freeware",
-        "url": "https://potplayer.daum.net/publicRelation"
+        "url": "https://potplayer.tv/publicRelation"
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/261021/PotPlayerSetup64.exe#/dl.7z",
+            "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/261021/PotPlayerSetup64.exe#/dl.7z",
             "hash": "28890593ea6b1156ca93cd79622fce4e8c1740bfdbe6ee907e3190ec7c3f51d3"
         }
     },
@@ -17,6 +17,12 @@
         "if (!(Test-Path \"$persist_dir\\PotPlayerMini64.ini\")) {",
         "    New-Item \"$dir\\PotPlayerMini64.ini\" -ItemType File | Out-Null",
         "}"
+    ],
+    "bin": [
+        [
+            "PotPlayerMini64.exe",
+            "potplayer"
+        ]
     ],
     "shortcuts": [
         [
@@ -30,13 +36,13 @@
         "PotPlayerMini64.ini"
     ],
     "checkver": {
-        "url": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
+        "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
         "regex": "\\[(\\d+)\\]"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
+                "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
             }
         }
     }
