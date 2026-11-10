@@ -1,5 +1,5 @@
 {
-    "version": "1.7.23122",
+    "version": "261021",
     "description": "Free multimedia player with plenty of features and rich customization",
     "homepage": "https://potplayer.tv/",
     "license": {
@@ -8,8 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/dl.7z",
-            "hash": "4b9833adf53b78c2149fe13dd67f2504bf39ee30b45c03f09e5f2c25e43f9cfe"
+            "url": [
+                "https://t1.kakaocdn.net/potplayer/PotPlayer/Codec/v5/OpenCodecSetup64.exe#/dl.7z",
+                "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/261021/PotPlayerSetup64.exe#/dl.7z"
+            ],
+            "hash": [
+                "677d299777ae448dad18640ef53e6bff6b359683c1dba8a50901f27a8fcaa2ef",
+                "71374ce7f60136b8e8dd1618f736d37ccbefcc5875feb33650f9f8de0bba87e8"
+            ]
         }
     },
     "pre_install": [
@@ -36,13 +42,16 @@
         "PotPlayerMini64.ini"
     ],
     "checkver": {
-        "url": "https://www.videohelp.com/software/PotPlayer/version-history",
-        "regex": "(\\d{1}\\.{1}\\d{1}\\.{1}\\d{5})"
+        "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
+        "regex": "\\[(\\d+)\\]"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/dl.7z"
+                "url": [
+                    "https://t1.kakaocdn.net/potplayer/PotPlayer/Codec/v5/OpenCodecSetup64.exe#/dl.7z",
+                    "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
+                ]
             }
         }
     }
