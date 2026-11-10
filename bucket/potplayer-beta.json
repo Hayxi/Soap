@@ -8,8 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.kakaocdn.net/potplayer/beta/PotPlayerSetup64.exe#/dl.7z",
-            "hash": "bd366aed0a6a64728a90bc41f710fd2a7e42b05469b19265f20431a1ae61dcaa"
+            "url": [
+                "https://t1.kakaocdn.net/potplayer/PotPlayer/Codec/v5/OpenCodecSetup64.exe#/OpenCodecSetup64.7z",
+                "https://t1.kakaocdn.net/potplayer/beta/PotPlayerSetup64.exe#/PotPlayerSetup64.7z"
+            ],
+            "hash": [
+                "677d299777ae448dad18640ef53e6bff6b359683c1dba8a50901f27a8fcaa2ef",
+                "bd366aed0a6a64728a90bc41f710fd2a7e42b05469b19265f20431a1ae61dcaa"
+            ]
         }
     },
     "pre_install": [
@@ -32,7 +38,9 @@
     ],
     "persist": [
         "Capture",
+        "Model",
         "Playlist",
+        "WebView2",
         "PotPlayerMini64.ini"
     ],
     "checkver": {
@@ -42,7 +50,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://t1.kakaocdn.net/potplayer/beta/PotPlayerSetup64.exe#/dl.7z"
+                "url": [
+                    "https://t1.kakaocdn.net/potplayer/PotPlayer/Codec/v5/OpenCodecSetup64.exe#/OpenCodecSetup64.7z",
+                    "https://t1.kakaocdn.net/potplayer/beta/PotPlayerSetup64.exe#/PotPlayerSetup64.7z"
+                ]
             }
         }
     }
