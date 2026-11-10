@@ -1,6 +1,6 @@
 {
-    "version": "261021",
-    "description": "A media player software developed for the Microsoft Windows operating system",
+    "version": "1.7.23171",
+    "description": "Free multimedia player with plenty of features and rich customization",
     "homepage": "https://potplayer.tv/",
     "license": {
         "identifier": "Freeware",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/261021/PotPlayerSetup64.exe#/dl.7z",
-            "hash": "71374ce7f60136b8e8dd1618f736d37ccbefcc5875feb33650f9f8de0bba87e8"
+            "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/dl.7z",
+            "hash": "89d42bec6a2ec5a25fb339c0418eac1430ffe3b941718917b6886ac8fd92b49e"
         }
     },
     "pre_install": [
@@ -36,13 +36,13 @@
         "PotPlayerMini64.ini"
     ],
     "checkver": {
-        "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
-        "regex": "\\[(\\d+)\\]"
+        "url": "https://www.videohelp.com/software/PotPlayer/version-history",
+        "regex": "\\]\\s+[\\d\\.]+"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
+                "url": "https://t1.kakaocdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/dl.7z"
             }
         }
     }
