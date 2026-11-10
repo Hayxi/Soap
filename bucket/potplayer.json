@@ -38,7 +38,9 @@
     ],
     "persist": [
         "Capture",
+        "Model",
         "Playlist",
+        "WebView2",
         "PotPlayerMini64.ini"
     ],
     "checkver": {
