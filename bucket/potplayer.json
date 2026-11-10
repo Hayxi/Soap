@@ -37,7 +37,7 @@
     ],
     "checkver": {
         "url": "https://www.videohelp.com/software/PotPlayer/version-history",
-        "regex": "\\[\\d+\\]\\s+(\\d+(?:\\.\\d+)+)"
+        "regex": "(\\d{1}\\.{1}\\d{1}\\.{1}\\d{5})"
     },
     "autoupdate": {
         "architecture": {
