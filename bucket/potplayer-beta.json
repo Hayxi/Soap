@@ -1,5 +1,5 @@
 {
-    "version": "26.11.06",
+    "version": "26.10.20",
     "description": "Free multimedia player with plenty of features and rich customization",
     "homepage": "https://potplayer.tv/",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.kakaocdn.net/potplayer/beta/PotPlayerSetup64.exe#/dl.7z",
-            "hash": "bd366aed0a6a64728a90bc41f710fd2a7e42b05469b19265f20431a1ae61dcaa"
+            "hash": "069f03c56dfdf7ef9655bea81bdd9c3b3baa2aa8d3b380379f434622b3cf75f0"
         }
     },
     "pre_install": [
@@ -36,7 +36,7 @@
         "PotPlayerMini64.ini"
     ],
     "checkver": {
-        "url": "https://m.cafe.daum.net/pot-tool/AZMV/search/writer?query=팟플.개발자",
+        "url": "https://m.cafe.daum.net/pot-tool/AZMV/search/writer?query=%ED%8C%9F%ED%94%8C.%EA%B0%9C%EB%B0%9C%EC%9E%90",
         "regex": "created_at\">([\\d.]+)</span>"
     },
     "autoupdate": {
